@@ -5,7 +5,6 @@ const getAll = async () => {
   const cars = await db
     .select("*")
     .from("cars")
-
     return cars
 }
 
